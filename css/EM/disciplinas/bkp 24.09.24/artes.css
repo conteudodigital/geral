@@ -1,18 +1,19 @@
 :root {
 	/* CORES */
-	--primario: #360032;
-	--secundario: #16b0a8;
-	--terciario: #c7197c;
+	--primario: #0c143a;
+	--secundario: #008fd4;
+	--terciario: #ed2654;
 
-	--header-1: #561b43;
-	--header-2: #1f1f29;
-	
-	--circulo-disciplina: Matemática;
-	--circulo-1: #421a4b;
-	--circulo-2: #c80a72;
-	--header-linha: #00adba;
-	--header-linha-light: #cde8ec;
-	--circulo-2-light: #edc4d7;
+	/* ANTIGO EM */
+	--header-1: #c42e4b;
+	--header-2: #050607;
+
+	--circulo-disciplina: Arte;
+	--circulo-1: #1a1d3a;
+	--circulo-2: #e0124a;
+	--header-linha: #5a2e6b;
+	--header-linha-light: #c2b6d1;
+	--circulo-2-light: #FFD8E1;
 }
 
 body.novo-medio header, body.novo-medio .blocoHeader {
@@ -181,8 +182,4 @@ body.novo-medio blockquote.pontilhadoExt{
 	border-style: solid;
     border-color: var(--primario);
     border-width: 2px;
-}
-/* ALTERAÇÕES EDUARDO */
-.alternativaLetra span{
-	vertical-align: top;
 }

@@ -96,7 +96,7 @@ function init1() {
     btinicio.image.onload = function(){};
     stage.addChild(btinicio);
     btinicio.on("mousedown", function (evt) {
-        document.getElementById(_idCanvas).scrollIntoview();
+        document.getElementById(_idCanvas).scrollIntoView();
         stage.removeChild(this);
         animaTitulo('Gabriela y Diego no consiguen encontrar sus ropas y accesorios. ¿Vamos a ayudarlos?',210,360,43);
         createjs.Tween.get(content).wait(7000).call(primeiraEtapa);

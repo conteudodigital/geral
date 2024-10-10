@@ -1,18 +1,8 @@
 :root {
 	/* CORES */
-	--primario: #360032;
-	--secundario: #16b0a8;
-	--terciario: #c7197c;
-
-	--header-1: #561b43;
-	--header-2: #1f1f29;
-	
-	--circulo-disciplina: Matemática;
-	--circulo-1: #421a4b;
-	--circulo-2: #c80a72;
-	--header-linha: #00adba;
-	--header-linha-light: #cde8ec;
-	--circulo-2-light: #edc4d7;
+	--primario: #5c2d91;
+	--secundario: #008f7d;
+	--terciario: #cd3588;
 }
 
 body.novo-medio header, body.novo-medio .blocoHeader {
@@ -181,8 +171,4 @@ body.novo-medio blockquote.pontilhadoExt{
 	border-style: solid;
     border-color: var(--primario);
     border-width: 2px;
-}
-/* ALTERAÇÕES EDUARDO */
-.alternativaLetra span{
-	vertical-align: top;
 }

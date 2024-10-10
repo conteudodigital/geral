@@ -182,3 +182,13 @@ body.novo-medio blockquote.pontilhadoExt{
     border-color: var(--primario);
     border-width: 2px;
 }
+
+/* ALTERAÇÕES EDUARDO */
+.alternativaLetra span{
+	vertical-align: top;
+}
+.textoReferencia{
+	font-weight: 300!important;
+	font-size: 1em!important;
+	margin-left: 12%;
+}

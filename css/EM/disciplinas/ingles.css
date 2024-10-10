@@ -182,3 +182,8 @@ body.novo-medio blockquote.pontilhadoExt{
     border-color: var(--primario);
     border-width: 2px;
 }
+
+/* Alterações Eduardo */
+img{
+	margin: auto;
+}

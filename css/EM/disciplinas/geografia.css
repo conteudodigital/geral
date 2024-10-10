@@ -182,3 +182,15 @@ body.novo-medio blockquote.pontilhadoExt{
     border-color: var(--primario);
     border-width: 2px;
 }
+
+/* ALTERAÇÕES EDUARDO */
+.grid-60-40{
+	display: grid;
+	grid-template-columns: 60% calc(40% - 1em);
+	gap: 1em;
+}
+@media only screen and (max-width: 640px) {
+	.grid-60-40{
+		grid-template-columns: 1fr;
+	}
+}
